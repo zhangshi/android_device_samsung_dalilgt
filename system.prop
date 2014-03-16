@@ -1,6 +1,5 @@
 #
-# system.prop for SHV-E120K
-# by Cholokei - leesl0416@naver.com
+# system.prop for SHV-E120L
 #
 
 rild.libpath=/system/lib/libril-qc-qmi-1.so
