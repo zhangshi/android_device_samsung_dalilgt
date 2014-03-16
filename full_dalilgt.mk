@@ -31,12 +31,12 @@ BOARD_HAVE_NFC := true
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from dalikt device
-$(call inherit-product, device/samsung/dalikt/device.mk)
+# Inherit from dalilgt device
+$(call inherit-product, device/samsung/dalilgt/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_dalikt
-PRODUCT_DEVICE := dalikt
+PRODUCT_NAME := full_dalilgt
+PRODUCT_DEVICE := dalilgt
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SHV-E120K
+PRODUCT_MODEL := SHV-E120L
